@@ -1,0 +1,32 @@
+:root {
+    --color-selected: #A741FF;
+}
+
+.tabs {
+    margin-top: 30px;
+}
+
+.tabs-header {
+    display: flex;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.tabs-header li:hover, .tabs-header li.selected {
+    color: var(--color-selected);
+    /* color: #333; */
+}
+
+.tabs-header li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.tabs-content {
+    font-size: 18px;
+    padding: 20px;
+    border: 1px solid #333;
+    font-weight: bold;
+    background: #f4f4f4;
+}
